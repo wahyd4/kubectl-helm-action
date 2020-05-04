@@ -1,0 +1,9 @@
+name: 'kubectl & helm'
+author: 'Junv'
+description: 'A Github action for using kubectl and helm to deploy applications to Kubernetes cluster'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'truck'
+  color: 'blue'
