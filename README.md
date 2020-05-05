@@ -33,6 +33,19 @@ jobs:
         args: kubectl apply -f manifest.yaml
 ```
 
+Or you may want to deploy applications with `helm`
+
+```yaml
+- name: deploy postgres to cluster
+  uses: wahyd4/kubectl-helm-action@master
+  env:
+    KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
+  with:
+    args: |
+      helm repo add bitnami https://charts.bitnami.com/bitnami
+      helm upgrade --install postgres -n data bitnami/postgresql
+
+```
 
 ## Thanks
 
