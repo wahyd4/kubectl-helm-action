@@ -1,4 +1,7 @@
 # kubectl-helm-action
+
+[![Page Views Count](https://badges.toozhao.com/badges/01G1FYS3PGTQG8FS69ZZVS7MZR/green.svg)](https://badges.toozhao.com/stats/01G1FYS3PGTQG8FS69ZZVS7MZR "Get your own page views count badge on badges.toozhao.com")
+
 A Github action for using kubectl and helm to deploy applications to Kubernetes cluster
 
 ## How to use
