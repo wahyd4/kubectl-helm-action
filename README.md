@@ -8,12 +8,12 @@ A Github action for using kubectl and helm to deploy applications to Kubernetes 
 
 ### Set up `KUBE_CONFIG_DATA` secret
 
-Have your `kubeconfig` file encrypted
+Encode your `kubeconfig` file with base64 encoding.
 
 ```bash
 cat $HOME/.kube/config | base64
 ```
-Store the encrypted string as a secret with name `KUBE_CONFIG_DATA`, by navigating to your repo -> Settings -> Secrets -> Add a new secret
+Store the encoded string as a secret with name `KUBE_CONFIG_DATA`, by navigating to your repo -> Settings -> Secrets -> Add a new secret
 
 ### Config a Github workflow
 
