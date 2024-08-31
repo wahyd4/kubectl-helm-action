@@ -4,6 +4,9 @@
 
 A Github action for using kubectl and helm to deploy applications to Kubernetes cluster
 
+## ☕️ Buy me a coffee
+https://www.paypal.me/junvzhao
+
 ## How to use
 
 ### Set up `KUBE_CONFIG_DATA` secret
