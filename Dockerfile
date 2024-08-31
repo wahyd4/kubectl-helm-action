@@ -1,4 +1,4 @@
-FROM dtzar/helm-kubectl:3.13
+FROM dtzar/helm-kubectl:3.15
 
 WORKDIR /app
 
