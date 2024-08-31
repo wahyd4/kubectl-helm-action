@@ -50,9 +50,9 @@ Or you may want to deploy applications with `helm`
 
 ```
 
-## Switch versions 
+## Switch versions
 
-You can switch to different helm version by using different tags, current the master branch uses helm `3.15`
+You can switch to different helm version by using different tags, current the master branch uses helm `3.13`
 
 * 3.12 wahyd4/kubectl-helm-action@3.12
 * 3.13 wahyd4/kubectl-helm-action@3.13
